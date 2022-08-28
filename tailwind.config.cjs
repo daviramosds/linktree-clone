@@ -7,7 +7,7 @@ module.exports = {
         semitransparent: 'rgba(255, 255, 255, 0.5)'
       },
       backgroundImage: {
-        bg: `url('https://picsum.photos/1900')`
+        bg: `url('https://picsum.photos/1200')`
       }
     },
   },
