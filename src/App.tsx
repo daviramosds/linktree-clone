@@ -25,7 +25,6 @@ function App() {
 
   if (loading) return "Loading...";
   if (error) {
-    console.log(error);
     return <pre>{error.message}</pre>;
   }
 
