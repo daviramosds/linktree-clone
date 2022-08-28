@@ -23,7 +23,7 @@ interface LinkInterface {
 function App() {
   const { data, loading, error } = useQuery(GET_LINKS_QUERY);
 
-  if (loading) return "Loading...";
+  if (loading) return <p>Loading...</p>;
 
   const { links } = data;
 
