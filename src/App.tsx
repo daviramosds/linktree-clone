@@ -24,9 +24,6 @@ function App() {
   const { data, loading, error } = useQuery(GET_LINKS_QUERY);
 
   if (loading) return "Loading...";
-  if (error) {
-    return <pre>{error.message}</pre>;
-  }
 
   const { links } = data;
 
