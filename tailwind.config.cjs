@@ -4,12 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        semitransparent: 'rgba(255, 255, 255, 0.5)'
-      },
-      backgroundImage: {
-        bg: `url('https://picsum.photos/1200')`
+        semitransparent: "rgba(255, 255, 255, 0.5)",
       }
     },
   },
-  plugins: [],
 };

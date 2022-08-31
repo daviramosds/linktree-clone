@@ -28,8 +28,8 @@ function App() {
   const { links } = data;
 
   return (
-    <div className="bg-bg bg-cover bg-center p-12 h-screen w-screen">
-      <main className="h-full mx-auto max-w-[600px] p-10 flex flex-col items-center relative backdrop-filter backdrop-blur-lg bg-semitransparent rounded">
+    <div className="bg-zinc-400 bg-cover bg-center h-screen w-screen md:p-12 p-2">
+      <main className="h-full mx-auto md:max-w-[600px] p-10 flex flex-col items-center relative backdrop-filter backdrop-blur-lg bg-semitransparent rounded">
         <img
           src="https://github.com/daviramosds.png"
           className="w-24 h-24 rounded-full"
